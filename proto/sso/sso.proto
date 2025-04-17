@@ -5,8 +5,8 @@ syntax = "proto3";
     option go_package = "tuzov.sso.v1;ssov1";
 
         service Auth {
-      rpc Registraten (RegisterRequest) returns (RegisterResponse);
-      rpc Logi (LoginRequest) returns (LoginResponse);
+      rpc Register (RegisterRequest) returns (RegisterResponse);
+      rpc Login (LoginRequest) returns (LoginResponse);
       rpc IsAdmin (IsAdminRequest) returns (IsAdminResponse);
         }
 
