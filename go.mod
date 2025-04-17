@@ -1,4 +1,4 @@
-module github.com/Ksandr9182/protos_Test
+module github.com/Ksandr9182/protosTest
 
 go 1.23.6
 
