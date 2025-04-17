@@ -1,4 +1,4 @@
-module protos
+module github.com/Ksandr9182/protos_Test
 
 go 1.23.6
 
